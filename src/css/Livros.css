@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --cor-principal: #21262F;
+  --font-family: "Lato", sans-serif;
+  --cor-link: #589BFF;
+  --fundo-cor-1: #E9ECF0;
+  --aspas-cor: #2FBB69;
+}
+
+@media screen and (min-width: 1024px) {
+  /****************************TEXTO****************************/
+  .livros-texto{
+    margin: 3em 20em 0;
+    color: var(--cor-principal);
+    font-family: var(--font-family)
+  }
+
+  #livros h2{
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  #livros p{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #livros a{
+    color: var(--cor-link);
+    text-decoration: none;
+  }
+
+  /*********************LISTA DE LIVROS*****************************/
+  #livros-itens{
+    display: flex;
+    margin: 4em 8em;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: var(--cor-principal);
+    font-weight: var(--font-family);
+  }
+
+  #livros-itens img{
+    width: 258px;
+    height: 386px;
+    border: 0px;
+    border-radius: 15px;
+  }
+
+  #livros-itens-livro{
+    text-align: center;
+  }
+
+  #livros-itens-livro h3{
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  #livros-itens-livro p{
+    font-size: 11px;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1900px) {
+  .livros-texto{
+    margin: 4em 30em 0;
+    color: var(--cor-principal);
+    font-family: var(--font-family)
+  }
+
+  #livros h2{
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  #livros p{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #livros a{
+    color: var(--cor-link);
+    text-decoration: none;
+  }
+
+  /*********************LISTA DE LIVROS*****************************/
+  #livros-itens{
+    display: flex;
+    margin: 3em 18em;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: var(--cor-principal);
+    font-weight: var(--font-family);
+  }
+
+  #livros-itens-livro{
+    text-align: center;
+  }
+
+  #livros-itens-livro h3{
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  #livros-itens-livro p{
+    font-size: 11px;
+  }
+}

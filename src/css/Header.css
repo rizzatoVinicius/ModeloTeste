@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --cor-principal: #21262F;
+  --font-family: "Lato", sans-serif;
+  --cor-link: #589BFF;
+  --fundo-cor-1: #E9ECF0;
+  --aspas-cor: #2FBB69;
+}
+
+@media screen and (min-width: 1024px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: var(--font-family);
+        color: var(--cor-principal);
+        margin: 2em 0 0 0;
+    }
+
+    header h1{
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 48px;
+    }
+
+    header p{
+        font-size: 18px;
+    }
+
+
+}

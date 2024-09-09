@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --cor-principal: #21262F;
+  --font-family: "Lato", sans-serif;
+  --cor-link: #589BFF;
+  --fundo-cor-1: #E9ECF0;
+  --fundo-cor-2: #F8F8F9;
+  --aspas-cor: #2FBB69;
+}
+
+@media screen and (min-width: 1024px) {
+    .artigos-texto{
+        margin: 3em 20em 0;
+        color: var(--cor-principal);
+        font-family: var(--font-family)
+      }
+    
+      .artigos-texto h2{
+        font-size: 36px;
+        font-weight: 900;
+      }
+    
+      .artigos-texto p{
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      /******************************LISTA TAGS*************************************/
+      #artigos-lista{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 18em;
+        font-family: var(--font-family);
+        color: var(--cor-principal);
+      }
+
+      #artigos-lista-tags{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 1em;
+      }
+
+      #artigos-lista-tags li{
+        background-color: var(--fundo-cor-1);
+        padding: 0.75em;
+        border-radius: 15px;
+        font-size: 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      #artigos-lista-tags span{
+        text-transform: uppercase;
+        font-size: 11px;
+      }
+
+      #artigos-lista-sociais{
+        display: flex;
+        gap: 2em;
+      }
+
+      #artigos-lista a{
+        display: flex;
+        align-items: center;
+      }
+
+      #artigos-lista li{
+        display: flex;
+        align-items: center;
+      }
+
+      #artigos-lista-botao-like{
+        padding: 1em 1.5em;
+        border: 1px solid var(--cor-principal);
+        border-radius: 30px;
+        display: flex;
+        gap: 1em;
+      }
+      
+}
+
+@media screen and (min-width: 1900px) {
+    .artigos-texto{
+        margin: 4em 30em 0;
+        color: var(--cor-principal);
+        font-family: var(--font-family)
+      }
+    
+      .artigos-texto h2{
+        font-size: 36px;
+        font-weight: 900;
+      }
+    
+      .artigos-texto p{
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      /******************************LISTA TAGS*************************************/
+
+      #artigos-lista{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 28em;
+        font-family: var(--font-family);
+        color: var(--cor-principal);
+      }
+
+      #artigos-lista-tags{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 1em;
+      }
+
+      #artigos-lista-tags li{
+        background-color: var(--fundo-cor-1);
+        padding: 0.75em;
+        border-radius: 15px;
+        font-size: 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      #artigos-lista-tags span{
+        text-transform: uppercase;
+        font-size: 11px;
+      }
+
+      #artigos-lista-sociais{
+        display: flex;
+        gap: 2em;
+      }
+
+      #artigos-lista a{
+        display: flex;
+        align-items: center;
+      }
+
+      #artigos-lista li{
+        display: flex;
+        align-items: center;
+      }
+
+      #artigos-lista-botao-like{
+        padding: 1em 1.5em;
+        border: 1px solid var(--cor-principal);
+        border-radius: 30px;
+        display: flex;
+        gap: 1em;
+      }
+    
+}
