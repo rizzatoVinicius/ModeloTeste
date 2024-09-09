@@ -5,7 +5,7 @@ import '../css/Livros.css';
 export default function Livros() {
   const [books, setBooks] = useState([]);
 
-  // Função que faz a requisição à API do Google Books
+  
   const fetchBooks = async () => {
     const url = 'https://www.googleapis.com/books/v1/volumes?q=HARRY%20POTTER';
     try {
